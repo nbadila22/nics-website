@@ -1,5 +1,54 @@
 body {
-    background-color: rgb(179, 199, 170);
-  
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("yeti.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0; 
+    background-color:rgb(172, 164, 155);
    
   }
+  
+  /* Defines the main nav block */
+.myNav {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #333;
+}
+
+/* Removes bullets, adds margin & padding */
+.myNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.myNav li {
+float: left;
+}
+
+/* Define the block styling for the links */
+
+.myNav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* Display active link differently */
+.myNav li a.active {
+    background-color: #3db04d;
+}
+.background-link {
+display: block;
+width: 100%;
+height: 100%;
+background-image: url("click-studio.jpeg");
+background-size: cover;
+background-position: center;
+} 
+
